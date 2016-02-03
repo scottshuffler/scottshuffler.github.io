@@ -1,5 +1,5 @@
 #circle {
-    background:#27ae60;
+    background: #27ae60;
     height:360px;
     width:360px;
     -moz-border-radius:360px;
@@ -9,6 +9,15 @@
     text-align:center;
     color:#bdc3c7;
     margin: 0 auto;
+}
+
+#image {
+    background-image:url(images/me.jpg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
 }
 
 body {
