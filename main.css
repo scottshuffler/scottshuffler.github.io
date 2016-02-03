@@ -4,8 +4,27 @@
     width:360px;
     -moz-border-radius:360px;
     -webkit-border-radius:360px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2c3e50;
 
-    padding:32px;
+    padding:20px;
+    text-align:center;
+    color:#bdc3c7;
+    margin: 0 auto;
+}
+
+#tinycircle {
+    background: #27ae60;
+    height:50px;
+    width:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2c3e50;
+
+    padding:20px;
     text-align:center;
     color:#bdc3c7;
     margin: 0 auto;
@@ -18,6 +37,15 @@
     width: 100%;
     -moz-border-radius:100%;
     -webkit-border-radius:100%;
+}
+
+#rectangle {
+    border-radius: 0px;
+    background: #bdc3c7;
+    padding: 20px; 
+    width: 400px;
+    height: 550px; 
+    margin: 0 auto;
 }
 
 body {
