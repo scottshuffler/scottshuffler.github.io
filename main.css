@@ -1,17 +1,10 @@
 #circle {
-    background: #27ae60;
     height:360px;
     width:360px;
     -moz-border-radius:360px;
     -webkit-border-radius:360px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #2c3e50;
-
-    padding:20px;
     text-align:center;
     color:#bdc3c7;
-    margin: 0 auto;
 }
 
 #tinycircle {
@@ -19,11 +12,8 @@
     height:50px;
     -moz-border-radius:50px;
     -webkit-border-radius:50px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #2c3e50;
-
-    padding:4px;
+    float: left;
+    padding:10px;
     text-align:center;
     color:#bdc3c7;
     margin: 0 auto;
@@ -36,15 +26,14 @@
     width: 100%;
     -moz-border-radius:100%;
     -webkit-border-radius:100%;
+    border-radius: 0 0 30px 0;
 }
 
 #rectangle {
-    border-radius: 0px;
+    border-radius: 0 0 30px 0;
     background: #bdc3c7;
-    padding: 20px; 
-    width: 400px;
-    height: 550px; 
-    margin: 0 auto;
+    width: 360px;
+    height: 445px;
 }
 
 body {
