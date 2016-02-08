@@ -26,16 +26,29 @@
     width: 100%;
     -moz-border-radius:100%;
     -webkit-border-radius:100%;
-    border-radius: 0 0 30px 0;
+    border-radius: 0 0 0px 0;
 }
 
-#rectangle {
+#bio_panel {
     border-radius: 0 0 30px 0;
     background: #bdc3c7;
     width: 360px;
     height: 445px;
 }
 
+#content_pane {
+
+}
+
+#title {
+    
+}
+
+#paragraph {
+
+}
+
 body {
 	background-color: #2c3e50;
 }
+
